@@ -1,0 +1,32 @@
+<svg viewBox="0 0 300 210" xmlns="http://www.w3.org/2000/svg" font-family="Inter,Arial">
+  <rect width="300" height="210" fill="#ffffff"/>
+  <!-- header -->
+  <rect x="0" y="0" width="300" height="34" fill="#EDEFE8"/>
+  <text x="16" y="23" font-size="13" font-weight="700" fill="#14201C">Shop</text>
+  <circle cx="256" cy="17" r="6" fill="#7E8A84"/>
+  <rect x="272" y="11" width="14" height="12" rx="3" fill="none" stroke="#14201C" stroke-width="2"/>
+  <circle cx="284" cy="8" r="5" fill="#2440C4"/>
+  <!-- product grid -->
+  <g>
+    <rect x="16" y="46" width="80" height="66" rx="10" fill="#E9EBE4"/>
+    <circle cx="56" cy="76" r="18" fill="#D8DEF7"/>
+    <rect x="16" y="118" width="52" height="6" rx="3" fill="#212D28"/>
+    <rect x="16" y="128" width="30" height="6" rx="3" fill="#2440C4"/>
+
+    <rect x="110" y="46" width="80" height="66" rx="10" fill="#E9EBE4"/>
+    <rect x="132" y="60" width="36" height="36" rx="8" fill="#D7E7DC"/>
+    <rect x="110" y="118" width="52" height="6" rx="3" fill="#212D28"/>
+    <rect x="110" y="128" width="30" height="6" rx="3" fill="#2440C4"/>
+
+    <rect x="204" y="46" width="80" height="66" rx="10" fill="#E9EBE4"/>
+    <path d="M244 62 l16 30 h-32 Z" fill="#D2D9F4"/>
+    <rect x="204" y="118" width="52" height="6" rx="3" fill="#212D28"/>
+    <rect x="204" y="128" width="30" height="6" rx="3" fill="#2440C4"/>
+  </g>
+  <!-- cart bar -->
+  <rect x="16" y="150" width="268" height="44" rx="12" fill="#14201C"/>
+  <text x="30" y="170" font-size="9" fill="#B3BAB2">3 items</text>
+  <text x="30" y="184" font-size="13" font-weight="700" fill="#ffffff">$ 128.00</text>
+  <rect x="214" y="162" width="58" height="20" rx="10" fill="#2440C4"/>
+  <text x="243" y="176" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Checkout</text>
+</svg>

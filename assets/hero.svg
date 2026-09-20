@@ -1,0 +1,47 @@
+<svg viewBox="0 0 440 320" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <!-- sketch-style developer workspace, coral line art to match the sketchbook page -->
+  <g stroke="#2440C4" stroke-width="3">
+    <!-- desk line -->
+    <path d="M40 250 H400"/>
+    <!-- laptop base -->
+    <path d="M150 250 l14 -70 h112 l14 70 Z"/>
+    <!-- laptop screen -->
+    <rect x="168" y="120" width="104" height="64" rx="6"/>
+  </g>
+  <!-- code lines on screen -->
+  <g stroke-width="3" stroke-linecap="round">
+    <path d="M178 134 h10" stroke="#2440C4"/>
+    <path d="M192 134 h34" stroke="#14201C" opacity=".55"/>
+    <path d="M182 146 h30" stroke="#4E9A6B"/>
+    <path d="M216 146 h22" stroke="#14201C" opacity=".4"/>
+    <path d="M182 158 h16" stroke="#2440C4"/>
+    <path d="M202 158 h44" stroke="#14201C" opacity=".4"/>
+    <path d="M178 170 h12" stroke="#2440C4"/>
+  </g>
+  <!-- coffee mug + steam -->
+  <g stroke="#2440C4" stroke-width="3">
+    <path d="M92 250 v-30 h34 v30"/>
+    <path d="M126 226 h12 a8 8 0 0 1 0 16 h-12"/>
+    <path d="M104 212 c-6 -8 4 -12 -2 -20" opacity=".7"/>
+    <path d="M116 212 c-6 -8 4 -12 -2 -20" opacity=".7"/>
+  </g>
+  <!-- potted plant -->
+  <g stroke="#4E9A6B" stroke-width="3">
+    <path d="M330 250 v-34"/>
+    <path d="M330 232 c-14 -4 -22 -16 -18 -30 12 0 20 10 18 30"/>
+    <path d="M330 226 c12 -6 20 -18 16 -32 -12 0 -20 12 -16 32"/>
+  </g>
+  <path d="M316 250 h30 l-4 18 h-22 Z" stroke="#2440C4" stroke-width="3"/>
+  <!-- floating tags -->
+  <g stroke="#14201C" stroke-width="3" opacity=".8">
+    <path d="M250 90 l-10 8 10 8"/>
+    <path d="M270 90 l10 8 -10 8"/>
+    <path d="M258 84 l4 28"/>
+  </g>
+  <!-- little heart + sparkles -->
+  <path d="M96 96 c-4 -8 -16 -4 -12 6 c2 6 12 12 12 12 c0 0 10 -6 12 -12 c4 -10 -8 -14 -12 -6Z" stroke="#2440C4" stroke-width="3"/>
+  <g stroke="#2440C4" stroke-width="2.5">
+    <path d="M380 120 v14 M373 127 h14"/>
+    <path d="M60 160 v10 M55 165 h10"/>
+  </g>
+</svg>

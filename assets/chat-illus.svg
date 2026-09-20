@@ -1,0 +1,21 @@
+<svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <rect width="320" height="200" fill="#EDEFE8"/>
+  <!-- big speech bubble -->
+  <g stroke="#2440C4" stroke-width="4">
+    <path d="M60 40 h150 a24 24 0 0 1 24 24 v40 a24 24 0 0 1 -24 24 h-96 l-26 24 v-24 h-2 a24 24 0 0 1 -24 -24 v-40 a24 24 0 0 1 24 -24Z" fill="#ffffff"/>
+  </g>
+  <!-- dots -->
+  <circle cx="112" cy="86" r="7" fill="#2440C4"/>
+  <circle cx="140" cy="86" r="7" fill="#4E9A6B"/>
+  <circle cx="168" cy="86" r="7" fill="#2440C4"/>
+  <!-- small reply bubble -->
+  <g stroke="#14201C" stroke-width="3" opacity=".85">
+    <path d="M232 108 h44 a14 14 0 0 1 14 14 v14 a14 14 0 0 1 -14 14 h-30 l-14 12 v-12 a14 14 0 0 1 -14 -14 v-14 a14 14 0 0 1 14 -14Z" fill="#ffffff"/>
+  </g>
+  <!-- sparkles -->
+  <g stroke="#2440C4" stroke-width="3">
+    <path d="M40 150 v14 M33 157 h14"/>
+    <path d="M276 60 v12 M270 66 h12"/>
+  </g>
+  <text x="160" y="184" font-family="'Gochi Hand',cursive" font-size="18" fill="#1B33A0" text-anchor="middle">say hi 👋</text>
+</svg>

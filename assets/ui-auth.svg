@@ -1,0 +1,15 @@
+<svg viewBox="0 0 300 210" xmlns="http://www.w3.org/2000/svg" font-family="Inter,Arial">
+  <rect width="300" height="210" fill="#14201C"/>
+  <!-- card -->
+  <rect x="66" y="30" width="168" height="150" rx="16" fill="#ffffff"/>
+  <circle cx="150" cy="60" r="16" fill="#2440C4"/>
+  <path d="M144 60 l4 4 8 -8" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="150" y="92" font-size="12" font-weight="700" fill="#14201C" text-anchor="middle">Welcome back</text>
+  <!-- fields -->
+  <rect x="86" y="104" width="128" height="22" rx="7" fill="#EDEFE8"/>
+  <rect x="96" y="112" width="70" height="6" rx="3" fill="#C2C8C0"/>
+  <rect x="86" y="132" width="128" height="22" rx="7" fill="#EDEFE8"/>
+  <circle cx="98" cy="143" r="2.5" fill="#7E8A84"/><circle cx="108" cy="143" r="2.5" fill="#7E8A84"/><circle cx="118" cy="143" r="2.5" fill="#7E8A84"/><circle cx="128" cy="143" r="2.5" fill="#7E8A84"/>
+  <!-- button -->
+  <rect x="86" y="160" width="128" height="14" rx="7" fill="#2440C4"/>
+</svg>

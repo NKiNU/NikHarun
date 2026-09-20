@@ -1,0 +1,28 @@
+<svg viewBox="0 0 300 210" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono',monospace">
+  <rect width="300" height="210" fill="#141C1A"/>
+  <!-- window chrome -->
+  <rect x="0" y="0" width="300" height="26" fill="#1E2724"/>
+  <circle cx="16" cy="13" r="4" fill="#2440C4"/>
+  <circle cx="30" cy="13" r="4" fill="#E0CE4A"/>
+  <circle cx="44" cy="13" r="4" fill="#4E9A6B"/>
+  <text x="150" y="17" font-size="9" fill="#7E8A84" text-anchor="middle">app.js</text>
+  <!-- gutter -->
+  <g font-size="9" fill="#4A5551">
+    <text x="10" y="48">1</text><text x="10" y="64">2</text><text x="10" y="80">3</text><text x="10" y="96">4</text><text x="10" y="112">5</text><text x="10" y="128">6</text><text x="10" y="144">7</text><text x="10" y="160">8</text>
+  </g>
+  <!-- code (decorative bars) -->
+  <g>
+    <rect x="30" y="42" width="40" height="7" rx="3.5" fill="#c586c0"/><rect x="74" y="42" width="30" height="7" rx="3.5" fill="#9cdcfe"/>
+    <rect x="42" y="58" width="26" height="7" rx="3.5" fill="#569cd6"/><rect x="72" y="58" width="60" height="7" rx="3.5" fill="#D9C56B"/>
+    <rect x="42" y="74" width="46" height="7" rx="3.5" fill="#dcdcaa"/><rect x="92" y="74" width="34" height="7" rx="3.5" fill="#9cdcfe"/>
+    <rect x="54" y="90" width="30" height="7" rx="3.5" fill="#569cd6"/><rect x="88" y="90" width="70" height="7" rx="3.5" fill="#D9C56B"/>
+    <rect x="42" y="106" width="20" height="7" rx="3.5" fill="#c586c0"/><rect x="66" y="106" width="50" height="7" rx="3.5" fill="#9cdcfe"/>
+    <rect x="30" y="122" width="36" height="7" rx="3.5" fill="#4ec9b0"/><rect x="70" y="122" width="40" height="7" rx="3.5" fill="#dcdcaa"/>
+    <rect x="42" y="138" width="64" height="7" rx="3.5" fill="#D9C56B"/>
+    <rect x="30" y="154" width="24" height="7" rx="3.5" fill="#c586c0"/>
+  </g>
+  <!-- terminal -->
+  <rect x="0" y="176" width="300" height="34" fill="#0F1615"/>
+  <text x="12" y="197" font-size="9" fill="#4E9A6B">$ npm run build ✓</text>
+  <rect x="12" y="200" width="8" height="4" fill="#4E9A6B"/>
+</svg>

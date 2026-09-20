@@ -1,0 +1,34 @@
+<svg viewBox="0 0 320 210" xmlns="http://www.w3.org/2000/svg" font-family="Inter,Arial">
+  <rect width="320" height="210" fill="#EDEFE8"/>
+  <!-- sidebar -->
+  <rect x="0" y="0" width="56" height="210" fill="#2440C4"/>
+  <circle cx="28" cy="24" r="8" fill="#ffffff"/>
+  <g fill="#ffffff" opacity=".8">
+    <rect x="16" y="54" width="24" height="8" rx="4"/>
+    <rect x="16" y="72" width="24" height="8" rx="4"/>
+    <rect x="16" y="90" width="24" height="8" rx="4"/>
+    <rect x="16" y="108" width="24" height="8" rx="4"/>
+  </g>
+  <!-- header -->
+  <text x="72" y="30" font-size="15" font-weight="700" fill="#14201C">Project overview</text>
+  <rect x="230" y="16" width="76" height="22" rx="11" fill="#14201C"/>
+  <text x="268" y="31" font-size="9" font-weight="700" fill="#ffffff" text-anchor="middle">Deploy</text>
+  <!-- big chart -->
+  <rect x="72" y="50" width="150" height="90" rx="12" fill="#ffffff"/>
+  <polyline points="84,124 104,110 124,116 144,88 164,96 184,68 204,80" fill="none" stroke="#2440C4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#E4E7DF"><rect x="84" y="130" width="10" height="4" rx="2"/><rect x="104" y="130" width="10" height="4" rx="2"/><rect x="124" y="130" width="10" height="4" rx="2"/><rect x="144" y="130" width="10" height="4" rx="2"/><rect x="164" y="130" width="10" height="4" rx="2"/><rect x="184" y="130" width="10" height="4" rx="2"/></g>
+  <!-- stat column -->
+  <rect x="232" y="50" width="74" height="42" rx="12" fill="#ffffff"/>
+  <text x="244" y="70" font-size="8" fill="#7E8A84">Users</text>
+  <text x="244" y="85" font-size="15" font-weight="700" fill="#14201C">12,480</text>
+  <rect x="232" y="98" width="74" height="42" rx="12" fill="#4E9A6B"/>
+  <text x="244" y="118" font-size="8" fill="#E3F0E6">Uptime</text>
+  <text x="244" y="133" font-size="15" font-weight="700" fill="#ffffff">99.9%</text>
+  <!-- table -->
+  <rect x="72" y="150" width="234" height="46" rx="12" fill="#ffffff"/>
+  <g fill="#E9EBE4">
+    <rect x="84" y="162" width="210" height="9" rx="4"/>
+    <rect x="84" y="178" width="160" height="9" rx="4"/>
+  </g>
+  <circle cx="80" cy="167" r="0"/>
+</svg>

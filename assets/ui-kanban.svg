@@ -1,0 +1,22 @@
+<svg viewBox="0 0 300 210" xmlns="http://www.w3.org/2000/svg" font-family="Inter,Arial">
+  <rect width="300" height="210" fill="#EDEFE8"/>
+  <text x="16" y="28" font-size="13" font-weight="700" fill="#14201C">Sprint board</text>
+  <circle cx="284" cy="22" r="7" fill="#2440C4"/>
+  <!-- columns -->
+  <g>
+    <rect x="14" y="44" width="86" height="150" rx="10" fill="#E4E7DF"/>
+    <rect x="107" y="44" width="86" height="150" rx="10" fill="#E4E7DF"/>
+    <rect x="200" y="44" width="86" height="150" rx="10" fill="#E4E7DF"/>
+  </g>
+  <g font-size="8" fill="#7E8A84">
+    <text x="24" y="60">To do</text><text x="117" y="60">Doing</text><text x="210" y="60">Done</text>
+  </g>
+  <!-- cards -->
+  <g>
+    <rect x="22" y="68" width="70" height="30" rx="7" fill="#ffffff"/><rect x="30" y="76" width="44" height="6" rx="3" fill="#212D28"/><rect x="30" y="86" width="30" height="5" rx="2.5" fill="#2440C4"/>
+    <rect x="22" y="104" width="70" height="30" rx="7" fill="#ffffff"/><rect x="30" y="112" width="52" height="6" rx="3" fill="#212D28"/><rect x="30" y="122" width="24" height="5" rx="2.5" fill="#2440C4"/>
+    <rect x="115" y="68" width="70" height="34" rx="7" fill="#ffffff"/><rect x="123" y="76" width="48" height="6" rx="3" fill="#212D28"/><rect x="123" y="86" width="54" height="5" rx="2.5" fill="#C9CFC7"/><rect x="123" y="94" width="28" height="5" rx="2.5" fill="#4E9A6B"/>
+    <rect x="208" y="68" width="70" height="30" rx="7" fill="#ffffff" opacity=".7"/><rect x="216" y="76" width="40" height="6" rx="3" fill="#7E8A84"/><rect x="216" y="86" width="30" height="5" rx="2.5" fill="#CFE0D3"/>
+    <rect x="208" y="104" width="70" height="30" rx="7" fill="#ffffff" opacity=".7"/><rect x="216" y="112" width="48" height="6" rx="3" fill="#7E8A84"/><rect x="216" y="122" width="24" height="5" rx="2.5" fill="#CFE0D3"/>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg" font-family="Inter,Arial">
+  <rect width="320" height="220" fill="#EDEFE8"/>
+  <!-- sidebar -->
+  <rect x="0" y="0" width="64" height="220" fill="#14201C"/>
+  <circle cx="20" cy="22" r="7" fill="#2440C4"/>
+  <rect x="34" y="18" width="20" height="7" rx="3.5" fill="#33403A"/>
+  <g fill="#33403A">
+    <rect x="14" y="54" width="36" height="8" rx="4"/>
+    <rect x="14" y="72" width="36" height="8" rx="4"/>
+    <rect x="14" y="90" width="36" height="8" rx="4"/>
+  </g>
+  <rect x="14" y="54" width="36" height="8" rx="4" fill="#2440C4"/>
+  <!-- topbar -->
+  <text x="80" y="30" font-size="14" font-weight="700" fill="#14201C">Dashboard</text>
+  <rect x="236" y="16" width="68" height="20" rx="10" fill="#ffffff"/>
+  <circle cx="294" cy="26" r="7" fill="#4E9A6B"/>
+  <!-- stat cards -->
+  <g>
+    <rect x="80" y="48" width="70" height="52" rx="10" fill="#ffffff"/>
+    <rect x="92" y="60" width="30" height="6" rx="3" fill="#C9CFC7"/>
+    <text x="92" y="86" font-size="16" font-weight="700" fill="#14201C">1.2k</text>
+    <rect x="158" y="48" width="70" height="52" rx="10" fill="#ffffff"/>
+    <rect x="170" y="60" width="30" height="6" rx="3" fill="#C9CFC7"/>
+    <text x="170" y="86" font-size="16" font-weight="700" fill="#2440C4">84%</text>
+    <rect x="236" y="48" width="70" height="52" rx="10" fill="#ffffff"/>
+    <rect x="248" y="60" width="30" height="6" rx="3" fill="#C9CFC7"/>
+    <text x="248" y="86" font-size="16" font-weight="700" fill="#2440C4">$9k</text>
+  </g>
+  <!-- chart -->
+  <rect x="80" y="110" width="148" height="94" rx="10" fill="#ffffff"/>
+  <polyline points="92,180 112,164 132,172 152,140 172,150 192,120 212,132" fill="none" stroke="#2440C4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline points="92,190 112,184 132,186 152,170 172,176 192,160 212,168" fill="none" stroke="#4E9A6B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".7"/>
+  <!-- side list -->
+  <rect x="236" y="110" width="70" height="94" rx="10" fill="#ffffff"/>
+  <g fill="#E7EAE1">
+    <rect x="246" y="122" width="50" height="14" rx="7"/>
+    <rect x="246" y="142" width="50" height="14" rx="7"/>
+    <rect x="246" y="162" width="50" height="14" rx="7"/>
+    <rect x="246" y="182" width="50" height="14" rx="7"/>
+  </g>
+</svg>

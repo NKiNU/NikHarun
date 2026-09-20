@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nik Harun — software engineer and UX researcher</title>
+<meta name="description" content="Nik Harun, Kuala Lumpur. I research what people actually needs, and build to help it. Web and UX research, React and Node engineering, AI-assisted prototyping." />
+<meta name="theme-color" content="#ebede6" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#131a18" media="(prefers-color-scheme: dark)" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Nik Harun — software engineer and UX researcher" />
+<meta property="og:description" content="I research what people actually needs, and build to help it. Kuala Lumpur." />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='5' fill='%2314201c'/%3E%3Crect x='5' y='16' width='22' height='7' fill='%23f2e85c'/%3E%3Cpath d='M8 22V9m0 0h5.5a4 4 0 0 1 0 8H8' stroke='%23ebede6' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,400..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<script>document.documentElement.classList.add('js')</script>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="masthead">
+  <a class="masthead__name" href="#top">
+    <span class="masthead__initial" aria-hidden="true">H</span>
+    Nik Harun
+  </a>
+  <nav class="masthead__nav" aria-label="Sections">
+    <a href="#practice">Practice</a>
+    <a href="#studies">Studies</a>
+    <a href="#toolkit">Toolkit</a>
+    <a class="masthead__cta" href="#contact">Get in touch</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ─────────────────────────  HERO  ───────────────────────── -->
+  <section class="hero" id="top">
+    <div class="shell hero__shell">
+
+      <div class="hero__lede">
+        <p class="hero__who">Nik Harun, Kuala Lumpur</p>
+
+        <h1 class="hero__line">
+          I research
+          <span class="mark" id="mark">what people actually needs</span>,
+          , and build to help it.
+        </h1>
+
+        <p class="hero__sub">
+          Software engineer and UX researcher. I work the whole loop: desk research and
+          user interviews at the front, development in the middle, and a shipped thing
+          at the end that someone can actually measure.
+        </p>
+
+        <div class="status" role="group" aria-label="Current status">
+          <p class="status__item">
+            <span class="status__k">Based in</span>
+            <span class="status__v">Kuala Lumpur</span>
+          </p>
+          <p class="status__item">
+            <span class="status__k">Local time</span>
+            <span class="status__v num" id="clock">—</span>
+          </p>
+          <p class="status__item">
+            <span class="status__k">Right now</span>
+            <span class="status__v"><span class="dot" aria-hidden="true"></span>Open to work</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- The characteristic artifact: a screen with the researcher's notes still on it -->
+      <figure class="artifact">
+        <div class="artifact__frame">
+          <img src="assets/nikharun.jpg" alt="Myself" />
+          <!-- <span class="pin pin--1" aria-hidden="true">1</span>
+          <span class="pin pin--2" aria-hidden="true">2</span> -->
+        </div>
+        <!-- <figcaption class="artifact__notes">
+          <p class="artifact__note"><b>1</b> Having clear objective. AI help me out through it</p>
+          <p class="artifact__note"><b>2</b> Be bold.</p>
+          <p class="artifact__src">Not a quiter.</p>
+        </figcaption> -->
+      </figure>
+
+    </div>
+  </section>
+
+  <!-- ─────────────────────────  PRACTICE  ───────────────────────── -->
+  <section class="band" id="practice">
+    <div class="shell band__shell">
+      <aside class="rail">
+        <p class="rail__note">The order matters. Skipping the first move is how you ship the wrong thing, beautifully.</p>
+      </aside>
+
+      <div class="band__body">
+        <h2 class="h2">How the work goes</h2>
+        <p class="band__intro">Three moves, always in this order. Each one produces something the next one needs.</p>
+
+        <ol class="moves">
+          <li class="move">
+            <span class="move__n" aria-hidden="true">1</span>
+            <h3 class="move__h">Find out</h3>
+            <p>
+              Desk research, competitor teardowns, interviews and usability sessions. I go in
+              with tasks, not opinions, and I watch what people do before I ask them anything.
+            </p>
+            <p class="move__out"><b>Produces</b> a short brief separating what we know from what we assumed.</p>
+          </li>
+
+          <li class="move">
+            <span class="move__n" aria-hidden="true">2</span>
+            <h3 class="move__h">Make it real</h3>
+            <p>
+              A working prototype, fast, with AI in the loop. Vibe coding gets me a first draft
+              in an afternoon. Then I read every line of it, because a draft nobody reviewed is
+              a liability, not a shortcut.
+            </p>
+            <p class="move__out"><b>Produces</b> something clickable, in front of real users, inside a week.</p>
+          </li>
+
+          <li class="move">
+            <span class="move__n" aria-hidden="true">3</span>
+            <h3 class="move__h">Ship and check</h3>
+            <p>
+              Production code with tests, accessible markup and an honest error state. Then back
+              to the users to find out whether the change did what we said it would.
+            </p>
+            <p class="move__out"><b>Produces</b> a shipped feature and a straight answer about whether it worked.</p>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────  STUDIES  ───────────────────────── -->
+  <section class="band band--studies" id="studies">
+    <div class="shell band__shell">
+      <aside class="rail">
+        <p class="rail__note">Four projects. Every one of them started as a question somebody could not answer.</p>
+      </aside>
+
+      <div class="band__body">
+        <h2 class="h2">Selected studies</h2>
+        <p class="band__intro">Each card carries the question that started it and what the work changed.</p>
+
+        <div class="studies">
+
+          <article class="study">
+            <div class="study__shot"><img src="assets/ui-mobile.svg" alt="Fintrack mobile app, a weekly spending review screen." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">SaveMe</h3>
+              <p class="study__stack num">Java · Firebase</p>
+              <p class="study__q">What did I spend my money on?</p>
+              <p class="study__a">
+                Daily logging felt like homework. This app apply minimum step for you to keep track you spending. Track you behaviour and manage it accordingly  
+                </p>
+            </div>
+          </article>
+
+          <article class="study">
+            <div class="study__shot"><img src="assets/ui-dashboard.svg" alt="Pulse operations dashboard with a sidebar and status panels." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">MyBts</h3>
+              <p class="study__stack num">React · Express</p>
+              <p class="study__q">Is your students progressing accordingly?</p>
+              <p class="study__a">A system that you manage your teaching and hub for student to get their studies done.
+                Always implement feedback trait to get good track of the student and produce high quality product.
+              </p>
+            </div>
+          </article>
+
+          <article class="study">
+            <div class="study__shot"><img src="assets/ui-chat.svg" alt="Nimbus team chat, showing a channel and message threads." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">cekresult</h3>
+              <p class="study__stack num">Java · Postgress · Gemini</p>
+              <p class="study__q">Need guide on learning material?</p>
+              <p class="study__a">Give you guide to your learning material based on objective.
+                Prevent you from wasting time on irrelevant material. Produce a learning path with clear objective.</p>
+            </div>
+          </article>
+
+          <article class="study">
+            <div class="study__shot"><img src="assets/ui-kanban.svg" alt="Sprintly sprint board with three columns of task cards." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">MySejid</h3>
+              <p class="study__stack num">React · Express</p>
+              <p class="study__q">Connect with kariah masjid?</p>
+              <p class="study__a">
+                Help to connect with kariah masjid and give the latest update on masjid activities. Help masjid management and plannings also.
+              </p>
+            </div>
+          </article>
+
+          <!-- <article class="study">
+            <div class="study__shot"><img src="assets/ui-analytics.svg" alt="Insight analytics screen with charts and summary tiles." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">Insight</h3>
+              <p class="study__stack num">Next.js · Charts</p>
+              <p class="study__q">Can someone who is not an analyst read this in ten seconds?</p>
+              <p class="study__a">Not from the chart alone. Every chart now carries a plain sentence above it saying what changed, with the chart there to back it up.</p>
+            </div>
+          </article>
+
+          <article class="study">
+            <div class="study__shot"><img src="assets/ui-auth.svg" alt="Gatekeeper sign-in screen on a dark background." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">Gatekeeper</h3>
+              <p class="study__stack num">PHP · JWT</p>
+              <p class="study__q">Where do people give up trying to sign in?</p>
+              <p class="study__a">At an error that said "invalid credentials" for six different failures. Each one now says what went wrong and what to do next.</p>
+            </div>
+          </article>
+
+          <article class="study">
+            <div class="study__shot"><img src="assets/ui-code.svg" alt="Devlog build pipeline output in a code editor." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">Devlog</h3>
+              <p class="study__stack num">Node · CI</p>
+              <p class="study__q">What do you need at 2am when a build breaks?</p>
+              <p class="study__a">The failing step, and nothing else. Failures now open first and the passing log stays collapsed until you ask for it.</p>
+            </div>
+          </article>
+
+          <article class="study">
+            <div class="study__shot"><img src="assets/ui-store.svg" alt="Kirana storefront with a product grid and a cart." loading="lazy" /></div>
+            <div class="study__text">
+              <h3 class="study__h">Kirana</h3>
+              <p class="study__stack num">MERN</p>
+              <p class="study__q">What stops a first-time buyer at checkout?</p>
+              <p class="study__a">Shipping cost, arriving as a surprise on the last step. It now shows on the product page, before anything goes in the cart.</p>
+            </div>
+          </article> -->
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────  TOOLKIT  ───────────────────────── -->
+  <section class="band" id="toolkit">
+    <div class="shell band__shell">
+      <aside class="rail">
+        <p class="rail__note">Grouped by the job it does. A flat list of logos tells you nothing about how someone works.</p>
+      </aside>
+
+      <div class="band__body">
+        <h2 class="h2">Toolkit</h2>
+        <p class="band__intro">What I reach for, and what I reach for it for.</p>
+
+        <div class="kit">
+          <section class="kit__group">
+            <h3 class="kit__h">Finding out</h3>
+            <ul class="kit__list">
+              <li>User interviews</li><li>Usability testing</li><li>Desk &amp; competitor research</li>
+              <li>Survey design</li><li>Affinity mapping</li><li>Journey mapping</li>
+            </ul>
+          </section>
+
+          <section class="kit__group">
+            <h3 class="kit__h">Interface</h3>
+            <ul class="kit__list">
+              <li>React</li><li>Vite</li><li>JavaScript</li><li>HTML &amp; CSS</li>
+              <li>Design systems</li>
+            </ul>
+          </section>
+
+          <section class="kit__group">
+            <h3 class="kit__h">Server &amp; data</h3>
+            <ul class="kit__list">
+              <li>Node.js</li><li>Express</li><li>MongoDB</li><li>JAVA</li>
+              <li>REST APIs</li><li>Git</li><li>ASP.NET</li>
+            </ul>
+          </section>
+
+          <section class="kit__group">
+            <h3 class="kit__h">Working with AI</h3>
+            <ul class="kit__list">
+              <li>Prompt-led prototyping</li><li>Vibe coding</li><li>Claude Code</li>
+              <li>Reviewing generated code</li><li>Writing evals</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────  CONTACT  ───────────────────────── -->
+  <section class="band band--contact" id="contact">
+    <div class="shell band__shell">
+      <aside class="rail">
+        <p class="rail__note">I read everything that arrives and reply within a day, usually the same one.</p>
+      </aside>
+
+      <div class="band__body">
+        <h2 class="h2">Let's talk</h2>
+        <p class="band__intro contact__intro">
+          I am looking for work where research and engineering sit in the same pair of hands:
+          a small team, a real user, and permission to go find out before building.
+        </p>
+
+        <div class="contact__row">
+          <a class="btn" href="mailto:harunkamal07@gmail.com?subject=Hello%20Nik">Email me</a>
+          <button class="btn btn--ghost" type="button" id="copyEmail" data-email="harunkamal07@gmail.com">
+            <span id="copyLabel">Copy address</span>
+          </button>
+        </div>
+
+        <p class="contact__addr num"><a href="mailto:harunkamal07@gmail.com">harunkamal07@gmail.com</a></p>
+        <p class="contact__live" role="status" aria-live="polite" id="copyStatus"></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell foot__shell">
+    <p>Nik Harun, Kuala Lumpur</p>
+    <p>Written by hand in HTML, CSS and JavaScript.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
