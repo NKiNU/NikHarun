@@ -280,7 +280,7 @@ section[id] { scroll-margin-top: 84px; }
 
 /* ---------- bands + the margin rail ---------- */
 .band { padding: var(--s9) 0; border-top: 1px solid var(--rule-2); }
-@media (min-width: 900px) { .band { padding: var(--s10) 0; } }
+@media (min-width: 900px) { .band { padding: var(--s9) 0; } }
 
 .band__shell { display: grid; gap: var(--s6); }
 @media (min-width: 1080px) {
