@@ -377,6 +377,11 @@ section[id] { scroll-margin-top: 84px; }
   opacity: 1;
 }
 
+/* A study with a working demo links to its own page. */
+.study__link { display: block; color: inherit; text-decoration: none; }
+.study__shot--live::after { content: "View full demo →"; }
+.study__link:focus-visible .study__shot::after { opacity: 1; }
+
 @media (prefers-reduced-motion: reduce) { .study__shot img, .study__shot::after { transition: none; } }
 
 .study__h { font-size: 1.3rem; letter-spacing: -.02em; }
